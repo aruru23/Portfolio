@@ -435,7 +435,7 @@ nav::before {
     color: #f5f2ec;
     font-size: var(--font-s);
     border-radius: 40px;
-    transition: transform 0.3s ease
+    transition: transform 0.3s ease;
 }
 .works-btn:hover{
     background: var(--accent-color);
