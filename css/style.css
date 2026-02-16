@@ -259,6 +259,10 @@ nav::before {
 .sp-only{
     display: none;
 }
+.favorite{
+    margin-top: var(--space-md);
+    margin-bottom: var(--space-sm);
+}
 .favorite .small{
     font-size:var(--font-m);
     font-weight: bold;
