@@ -144,7 +144,7 @@ h3{
     transform: translateX(-50%);
     font-family:'Jost', sans-serif;
     color: var(--accent-color);
-    font-size: var(--font-xs);
+    font-size: var(--font-s);
     letter-spacing: 0.1em;
     animation: blink 2s infinite;
 }
