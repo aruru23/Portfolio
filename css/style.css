@@ -128,17 +128,26 @@ h3{
   font-weight: inherit;
 }
 
-
 .scroll {
   position: absolute;
-  bottom:20px;
+  bottom:10px;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 2em;
   width: 3em;
   height: 3em;
 }
 
+.scroll p{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family:'Jost', sans-serif;
+    color: var(--accent-color);
+    font-size: var(--font-xs);
+    letter-spacing: 0.1em;
+    animation: blink 2s infinite;
+}
 .scroll span {
   width: 1em;
   height: 1em;
@@ -149,13 +158,17 @@ h3{
   border-left: 1.5px solid var(--accent-color);
   border-bottom: 1.5px solid var(--accent-color);
   z-index: 2;
-  animation: popping-arrow 2s infinite ease-out;
 }
 
-.scroll:hover span {
-  transform: translateY(.5em) rotate(-45deg);
-  animation: paused;
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
+
 
 /*nav*/
 nav::before {
