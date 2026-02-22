@@ -238,14 +238,11 @@ nav::before {
     display: block;
     line-height: 1.0;
 }
-.about h3{
-    margin-top:var(--space-sm);
-    margin-bottom: var(--space-sm);
-}
+
 .about .name{
-    font-size: var(--font-l);
+    font-family: 'sail', sans-serif;
+    font-size: 2.5rem;
     font-weight: 400;
-    font-family: 'Jost', sans-serif;
     letter-spacing: 0.1em;
 }
 .about .profile{
@@ -262,12 +259,13 @@ nav::before {
     margin-bottom: var(--space-sm);
 }
 .about .down{
-    padding-top: var(--space-sm);
+    margin-top: var(--space-sm);
+    margin-bottom: var(--space-sm);
 }
 .about .strong{
-    font-size:var(--font-m);
+    font-size:var(--font-s);
     font-weight: bold;
-    line-height: 1.25;
+    line-height: 2.0;
 }
 .sp-only{
     display: none;
@@ -707,9 +705,6 @@ h3{
     letter-spacing: 0.07em;
     margin-top: var(--space-sm);
     margin-bottom: var(--space-md);
-}
-.about .strong{
-    display: none;
 }
 .sp-only{
     display: block;
